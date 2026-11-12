@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "query_species": "dmel",
+  "query_fasta": "../data/candidate_queries/proteins.faa",
+  "query_map": "../data/candidate_queries/protein_map.tsv",
+  "blast_bin": "../tools/blast/bin",
+  "output_dir": "../results/aaeg_query_threads8",
+  "threads": 8,
+  "timeout_seconds": 3600,
+  "filters": {
+    "search_evalue": 0.001,
+    "accept_evalue": 1e-05,
+    "min_query_coverage": 50,
+    "min_identity": 0
+  },
+  "targets": [
+    {
+      "id": "aaeg_GCF_002204515_2_genome",
+      "species": "aaeg",
+      "assembly": "GCF_002204515.2",
+      "kind": "genome",
+      "fasta": "../data/aaeg_GCF_002204515_2/genome.fna"
+    }
+  ],
+  "mt_mode": 1
+}

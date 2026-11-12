@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id":"dmel_r6_36","provider":"flybase","species":"dmel","assembly":"dmel_r6.36_FB2020_05","enabled":true,"files":{"source_protein.faa":"https://s3ftp.flybase.org/genomes/Drosophila_melanogaster/dmel_r6.36_FB2020_05/fasta/dmel-all-translation-r6.36.fasta.gz"}},
+    {"id":"dsim_GCF_000754195_2","provider":"ncbi","species":"dsim","assembly":"GCF_000754195.2","include_genome":true,"enabled":true}
+  ]
+}
