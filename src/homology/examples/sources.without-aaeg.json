@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "dmel_r6_36",
+      "provider": "flybase",
+      "species": "dmel",
+      "assembly": "dmel_r6.36_FB2020_05",
+      "enabled": true,
+      "files": {
+        "source_protein.faa": "https://s3ftp.flybase.org/genomes/Drosophila_melanogaster/dmel_r6.36_FB2020_05/fasta/dmel-all-translation-r6.36.fasta.gz"
+      }
+    },
+    {
+      "id": "dsim_GCF_000754195_2",
+      "provider": "ncbi",
+      "species": "dsim",
+      "assembly": "GCF_000754195.2",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dsec_GCF_004382195_1",
+      "provider": "ncbi",
+      "species": "dsec",
+      "assembly": "GCF_004382195.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dyak_GCF_000005975_2",
+      "provider": "ncbi",
+      "species": "dyak",
+      "assembly": "GCF_000005975.2",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dere_GCF_003286155_1",
+      "provider": "ncbi",
+      "species": "dere",
+      "assembly": "GCF_003286155.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dfic_GCF_000220665_1",
+      "provider": "ncbi",
+      "species": "dfic",
+      "assembly": "GCF_000220665.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "drho_GCF_000236305_1",
+      "provider": "ncbi",
+      "species": "drho",
+      "assembly": "GCF_000236305.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dele_GCF_000224195_1",
+      "provider": "ncbi",
+      "species": "dele",
+      "assembly": "GCF_000224195.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "deug_GCF_000236325_1",
+      "provider": "ncbi",
+      "species": "deug",
+      "assembly": "GCF_000236325.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dbia_GCF_000233415_1",
+      "provider": "ncbi",
+      "species": "dbia",
+      "assembly": "GCF_000233415.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dtak_GCF_000224235_1",
+      "provider": "ncbi",
+      "species": "dtak",
+      "assembly": "GCF_000224235.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dkik_GCF_000224215_1",
+      "provider": "ncbi",
+      "species": "dkik",
+      "assembly": "GCF_000224215.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dana_GCF_003285975_2",
+      "provider": "ncbi",
+      "species": "dana",
+      "assembly": "GCF_003285975.2",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dmir_GCF_003369915_1",
+      "provider": "ncbi",
+      "species": "dmir",
+      "assembly": "GCF_003369915.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dpse_GCF_009870125_1",
+      "provider": "ncbi",
+      "species": "dpse",
+      "assembly": "GCF_009870125.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dper_GCF_003286085_1",
+      "provider": "ncbi",
+      "species": "dper",
+      "assembly": "GCF_003286085.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dwil_GCF_000005925_1",
+      "provider": "ncbi",
+      "species": "dwil",
+      "assembly": "GCF_000005925.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "sleb_GCF_003285725_1",
+      "provider": "ncbi",
+      "species": "sleb",
+      "assembly": "GCF_003285725.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "bdor_GCF_000789215_1",
+      "provider": "ncbi",
+      "species": "bdor",
+      "assembly": "GCF_000789215.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "blat_GCF_001853355_1",
+      "provider": "ncbi",
+      "species": "blat",
+      "assembly": "GCF_001853355.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "mdom_GCF_000371365_1",
+      "provider": "ncbi",
+      "species": "mdom",
+      "assembly": "GCF_000371365.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "agam_GCF_000005575_2",
+      "provider": "ncbi",
+      "species": "agam",
+      "assembly": "GCF_000005575.2",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "bmor_GCF_000151625_1",
+      "provider": "ncbi",
+      "species": "bmor",
+      "assembly": "GCF_000151625.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "mpha_GCF_013373865_1",
+      "provider": "ncbi",
+      "species": "mpha",
+      "assembly": "GCF_013373865.1",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "amel_GCF_003254395_2",
+      "provider": "ncbi",
+      "species": "amel",
+      "assembly": "GCF_003254395.2",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "aflo_GCF_000184785_3",
+      "provider": "ncbi",
+      "species": "aflo",
+      "assembly": "GCF_000184785.3",
+      "include_genome": true,
+      "enabled": true
+    },
+    {
+      "id": "dmag_GCF_003990815_1",
+      "provider": "ncbi",
+      "species": "dmag",
+      "assembly": "GCF_003990815.1",
+      "include_genome": true,
+      "enabled": true
+    }
+  ]
+}

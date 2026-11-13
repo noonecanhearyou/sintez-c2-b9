@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "query_species": "dmel",
+  "query_fasta": "../data/candidate_queries/proteins.faa",
+  "query_map": "../data/candidate_queries/protein_map.tsv",
+  "blast_bin": "../tools/blast/bin",
+  "output_dir": "../results/candidates_final",
+  "threads": 4,
+  "timeout_seconds": 3600,
+  "filters": {
+    "search_evalue": 0.001,
+    "accept_evalue": 1e-05,
+    "min_query_coverage": 50,
+    "min_identity": 0
+  },
+  "targets": [
+    {
+      "id": "dmel_proteome",
+      "species": "dmel",
+      "assembly": "dmel_r6.36_FB2020_05",
+      "kind": "protein",
+      "fasta": "../data/dmel_r6_36/proteins.faa",
+      "protein_map": "../data/dmel_r6_36/protein_map.tsv"
+    },
+    {
+      "id": "dsim_proteome",
+      "species": "dsim",
+      "assembly": "GCF_000754195.2",
+      "kind": "protein",
+      "fasta": "../data/dsim_GCF_000754195_2/proteins.faa",
+      "protein_map": "../data/dsim_GCF_000754195_2/protein_map.tsv"
+    },
+    {
+      "id": "dsim_genome",
+      "species": "dsim",
+      "assembly": "GCF_000754195.2",
+      "kind": "genome",
+      "fasta": "../data/dsim_GCF_000754195_2/genome.fna"
+    }
+  ]
+}
