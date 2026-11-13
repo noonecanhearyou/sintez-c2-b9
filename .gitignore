@@ -1,0 +1,25 @@
+# Сборки
+/src/build/
+/src/build-linux/
+/src/build-*/
+
+# Загружаемые базы и внешние бинарники
+/src/homology/data/
+/src/Tools/
+
+# Пакеты и рабочие результаты
+/src/release/
+/src/app_runs/
+/src/app_logs/
+
+# Временные артефакты проверки
+/src/app/qa/*.png
+/src/app/qa/*.log
+
+# Архивы
+*.zip
+*.tar.gz
+*.AppImage
+
+# Локальные файлы
+.DS_Store
