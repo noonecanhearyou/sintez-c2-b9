@@ -32,6 +32,7 @@
 
 <img src="photos/3.png" alt="Фото 3" width="800">
 
-## Ссылки 
-1. BLAST+: architecture and applications / C. Camacho, G. Coulouris, V. Avagyan [et al.] // BMC Bioinformatics. – 2009. – Vol. 10. – Art. 421.
-2. HAL: a hierarchical format for storing and analyzing multiple genome alignments / G. Hickey, B. Paten, D. Earl [et al.] // Bioinformatics. – 2013. – Vol. 29, № 10. – P. 1341–1342. – DOI: 10.1093/bioinformatics/btt128.
+## Ссылки
+1. Peng, J., Zhao, L. The origin and structural evolution of de novo genes in Drosophila. Nat Commun 15, 810 (2024). https://doi.org/10.1038/s41467-024-45028-1
+2. BLAST+: architecture and applications / C. Camacho, G. Coulouris, V. Avagyan [et al.] // BMC Bioinformatics. – 2009. – Vol. 10. – Art. 421.
+3. HAL: a hierarchical format for storing and analyzing multiple genome alignments / G. Hickey, B. Paten, D. Earl [et al.] // Bioinformatics. – 2013. – Vol. 29, № 10. – P. 1341–1342. – DOI: 10.1093/bioinformatics/btt128.
