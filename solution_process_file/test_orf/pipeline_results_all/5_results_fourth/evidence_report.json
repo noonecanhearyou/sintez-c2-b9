@@ -1,0 +1,47 @@
+{
+  "stage": "ORF Evidence Analysis Stage 4",
+  "orf_input": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_records.jsonl",
+  "comparisons_input": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparisons.jsonl",
+  "agreement_input": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/tool_agreement.csv",
+  "gene_filter": null,
+  "processed_comparisons": 32354,
+  "unique_genes": 780,
+  "evidence_class_counts": {
+    "preserved_cds_candidate": 6383,
+    "conflicting_signals": 7089,
+    "insufficient_evidence": 18214,
+    "potential_cds_disruption": 668
+  },
+  "alignment_status_counts": {
+    "aligned": 21134,
+    "low_quality_alignment": 7628,
+    "skipped_non_acgt": 182,
+    "skipped_multiple_references": 2340,
+    "skipped_size_limit": 868,
+    "skipped_reference_noncanonical": 200,
+    "skipped_empty_query": 2
+  },
+  "gap_path_status_counts": {
+    "no_gaps": 2537,
+    "in_frame_gaps_only": 7912,
+    "phase_restored": 14705,
+    "phase_unresolved": 3608,
+    "not_available": 3592
+  },
+  "profile_match_counts": {
+    "matched": 32354
+  },
+  "nontriplet_event_observations": 110299,
+  "settings": {
+    "max_gap_details": 10
+  },
+  "limitations": [
+    "Stage 3 uses ordinary nucleotide alignment.",
+    "Gap coordinates are not genomic mutation calls.",
+    "Truncated gap lists do not support phase reconstruction.",
+    "The phase model is relative to the selected alignment.",
+    "Spaln and GeneWise are not independent experiments.",
+    "Event observations may be duplicated across methods.",
+    "No ancestral state or gene origin is inferred."
+  ]
+}

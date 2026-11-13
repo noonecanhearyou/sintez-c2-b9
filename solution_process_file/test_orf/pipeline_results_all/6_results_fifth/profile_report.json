@@ -1,0 +1,37 @@
+{
+  "stage": "ORF Profile Aggregation Stage 5",
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_records.jsonl",
+  "gene_filter": null,
+  "comparison_records": 32354,
+  "unique_loci": 16177,
+  "gene_species_pairs": 12954,
+  "unique_genes": 780,
+  "locus_status_counts": {
+    "preserved_both_identical": 3090,
+    "conflicting_alignment": 3616,
+    "partial_evidence": 382,
+    "insufficient_evidence": 8870,
+    "preserved_both_different": 55,
+    "predicted_interruption_both": 164
+  },
+  "species_status_counts": {
+    "preserved_both_identical": 2712,
+    "conflicting_alignment": 2907,
+    "partial_evidence": 278,
+    "insufficient_evidence": 4653,
+    "multiple_loci_uncertain": 2217,
+    "preserved_both_different": 50,
+    "predicted_interruption_both": 137
+  },
+  "nontriplet_gap_observations": 110299,
+  "phase_restored_observations": 10377,
+  "origin_classification_performed": false,
+  "limitations": [
+    "Prediction agreement is not independent evidence.",
+    "Observed loci are not verified orthologs.",
+    "Multiple loci are left unresolved.",
+    "No species absence calls are made.",
+    "Gap observations are not evolutionary events.",
+    "No ancestral reconstruction is performed."
+  ]
+}

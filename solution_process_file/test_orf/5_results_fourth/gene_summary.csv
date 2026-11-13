@@ -1,0 +1,2 @@
+gene_id,comparisons,unique_species,unique_loci,preserved_cds_candidate,potential_cds_disruption,conflicting_signals,insufficient_evidence,exact_agreement_loci,nontriplet_event_observations
+FBgn0262810,36,18,18,8,0,16,12,13,100

@@ -1,0 +1,40 @@
+{
+  "stage": "ORF Analysis Stage 2",
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/2_results_first/all_records.jsonl",
+  "gene_filter": null,
+  "settings": {
+    "min_aa": 25,
+    "top_k": 10,
+    "max_peptide_aa": 120,
+    "start_codon": "ATG",
+    "stop_codons": [
+      "TAA",
+      "TAG",
+      "TGA"
+    ],
+    "genetic_code": 1
+  },
+  "scanned_jsonl_records": 51033,
+  "processed_records": 51033,
+  "unique_genes": 780,
+  "records_per_section": {
+    "raw": 17011,
+    "spaln": 17011,
+    "genewise": 17011
+  },
+  "cds_status_counts": {
+    "complete_candidate": 27066,
+    "not_applicable": 7681,
+    "interrupted": 1313,
+    "partial_or_noncanonical": 14810,
+    "uncertain": 161,
+    "empty": 2
+  },
+  "records_with_complete_orf_min_aa": 40353,
+  "total_complete_orfs_all_lengths": 1546773,
+  "total_complete_orfs_min_aa": 611596,
+  "records_with_ambiguous_bases": 634,
+  "records_with_invalid_bases": 0,
+  "coordinate_system": "0-based_half-open",
+  "strand_definition": "relative_to_input_sequence"
+}

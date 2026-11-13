@@ -1,0 +1,40 @@
+{
+  "stage": "ORF Evidence Analysis Stage 4",
+  "orf_input": "/home/stass/Downloads/hac_sintez/test_orf/3_results_second/orf_records.jsonl",
+  "comparisons_input": "/home/stass/Downloads/hac_sintez/test_orf/4_results_third/comparisons.jsonl",
+  "agreement_input": "/home/stass/Downloads/hac_sintez/test_orf/4_results_third/tool_agreement.csv",
+  "gene_filter": "FBgn0262810",
+  "processed_comparisons": 36,
+  "unique_genes": 1,
+  "evidence_class_counts": {
+    "preserved_cds_candidate": 8,
+    "conflicting_signals": 16,
+    "insufficient_evidence": 12
+  },
+  "alignment_status_counts": {
+    "aligned": 26,
+    "low_quality_alignment": 10
+  },
+  "gap_path_status_counts": {
+    "no_gaps": 4,
+    "in_frame_gaps_only": 4,
+    "phase_restored": 25,
+    "phase_unresolved": 3
+  },
+  "profile_match_counts": {
+    "matched": 36
+  },
+  "nontriplet_event_observations": 100,
+  "settings": {
+    "max_gap_details": 10
+  },
+  "limitations": [
+    "Stage 3 uses ordinary nucleotide alignment.",
+    "Gap coordinates are not genomic mutation calls.",
+    "Truncated gap lists do not support phase reconstruction.",
+    "The phase model is relative to the selected alignment.",
+    "Spaln and GeneWise are not independent experiments.",
+    "Event observations may be duplicated across methods.",
+    "No ancestral state or gene origin is inferred."
+  ]
+}

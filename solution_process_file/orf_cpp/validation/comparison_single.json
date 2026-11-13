@@ -1,0 +1,121 @@
+{
+  "files": 19,
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    {
+      "file": "2_results_first/records.jsonl",
+      "rows": 57,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "2_results_first/summary.csv",
+      "rows": 57,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "2_results_first/validation.json",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "3_results_second/orf_records.jsonl",
+      "rows": 57,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "3_results_second/orf_report.json",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "3_results_second/orf_summary.csv",
+      "rows": 57,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "4_results_third/comparison_report.json",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "4_results_third/comparison_summary.csv",
+      "rows": 36,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "4_results_third/comparisons.jsonl",
+      "rows": 36,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "4_results_third/tool_agreement.csv",
+      "rows": 18,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "5_results_fourth/evidence_records.jsonl",
+      "rows": 36,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "5_results_fourth/evidence_report.json",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "5_results_fourth/evidence_summary.csv",
+      "rows": 36,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "5_results_fourth/gene_summary.csv",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "6_results_fifth/gene_profiles.jsonl",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "6_results_fifth/gene_summary.csv",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "6_results_fifth/locus_profiles.csv",
+      "rows": 18,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "6_results_fifth/profile_report.json",
+      "rows": 1,
+      "ok": true,
+      "errors": []
+    },
+    {
+      "file": "6_results_fifth/species_profiles.csv",
+      "rows": 18,
+      "ok": true,
+      "errors": []
+    }
+  ]
+}

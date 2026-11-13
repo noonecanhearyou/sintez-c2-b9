@@ -1,0 +1,19 @@
+{
+  "return_code": 0,
+  "elapsed_seconds": 107.781,
+  "peak_rss_kib": 146280,
+  "command": [
+    "/home/stass/Downloads/hac_sintez/orf_cpp/run.sh",
+    "--cli",
+    "--input",
+    "/home/stass/Downloads/hac_sintez/test_orf/1_raw_data/supplementary_file_unannotated_alignments.txt",
+    "--output-root",
+    "/home/stass/Downloads/hac_sintez/orf_cpp/validation/full",
+    "--final-out",
+    "/home/stass/Downloads/hac_sintez/orf_cpp/validation/all_gene_profiles.jsonl",
+    "--max-events",
+    "200",
+    "--progress-every",
+    "10000"
+  ]
+}

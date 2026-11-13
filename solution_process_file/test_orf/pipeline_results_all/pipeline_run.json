@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-12T13:55:04+00:00",
+  "finished_at": "2026-11-12T13:57:28+00:00",
+  "mode": "fresh",
+  "gene": null,
+  "input": "/home/stass/Downloads/hac_sintez/test_orf/1_raw_data/supplementary_file_unannotated_alignments.txt",
+  "output_root": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all",
+  "final_output": "/home/stass/Downloads/hac_sintez/test_orf/final/all_gene_profiles.jsonl",
+  "stages": [
+    {
+      "stage": "parser",
+      "action": "computed",
+      "return_code": 0
+    },
+    {
+      "stage": "scanner",
+      "action": "computed",
+      "return_code": 0
+    },
+    {
+      "stage": "comparative",
+      "action": "computed",
+      "return_code": 0
+    },
+    {
+      "stage": "evidence",
+      "action": "computed",
+      "return_code": 0
+    },
+    {
+      "stage": "profile",
+      "action": "computed",
+      "return_code": 0
+    }
+  ],
+  "final_source": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/gene_profiles.jsonl",
+  "final_signature": {
+    "path": "/home/stass/Downloads/hac_sintez/test_orf/final/all_gene_profiles.jsonl",
+    "size": 1980867,
+    "sha256": "7a0591741040479ed08cdb9797e80ef2f02bb8ec99dfb2f37a0be28d853688fa"
+  },
+  "computed_stages": 5,
+  "reused_stages": 0
+}

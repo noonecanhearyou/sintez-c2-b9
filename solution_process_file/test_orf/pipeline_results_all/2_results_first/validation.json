@@ -1,0 +1,47 @@
+{
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/1_raw_data/supplementary_file_unannotated_alignments.txt",
+  "gene_filter": null,
+  "sections_seen": {
+    "raw": 1,
+    "spaln": 1,
+    "genewise": 1
+  },
+  "genes_per_section": {
+    "raw": 780,
+    "spaln": 780,
+    "genewise": 780
+  },
+  "unique_genes": 780,
+  "records_per_section": {
+    "raw": 17011,
+    "spaln": 17011,
+    "genewise": 17011
+  },
+  "selected_records": 51033,
+  "groups_scanned": 2340,
+  "records_with_iupac_ambiguity": 634,
+  "total_ambiguous_bases": 217646,
+  "warning_count": 2,
+  "warning_counts": {
+    "empty_prediction": 2
+  },
+  "warning_examples": [
+    {
+      "line": 57989,
+      "gene": "FBgn0264478",
+      "section": "spaln",
+      "species": "drho",
+      "issue": "empty_prediction"
+    },
+    {
+      "line": 66959,
+      "gene": "FBgn0264903",
+      "section": "spaln",
+      "species": "bdor",
+      "issue": "empty_prediction"
+    }
+  ],
+  "error_count": 0,
+  "error_counts": {},
+  "error_examples": []
+}

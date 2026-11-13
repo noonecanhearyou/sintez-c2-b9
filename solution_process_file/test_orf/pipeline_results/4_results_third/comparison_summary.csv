@@ -1,0 +1,37 @@
+gene_id,species,method,locus,reference_length_nt,target_length_nt,reference_cds_status,target_cds_status,reported_shift,alignment_status,alignment_score,identity,reference_coverage,query_coverage,matched_nt,mismatch_nt,gap_in_query_nt,gap_in_reference_nt,gap_event_count,internal_nontriplet_gap_events,internal_triplet_gap_events,terminal_gap_events,quality_ok,reason
+FBgn0262810,dsim,spaln,Dsimw501_GD28905,387,387,complete_candidate,complete_candidate,No,aligned,705.0,0.940568,1.0,1.0,364,23,0,0,0,0,0,0,True,
+FBgn0262810,dsec,spaln,LOC116802140,387,387,complete_candidate,complete_candidate,No,aligned,711.0,0.945736,1.0,1.0,366,21,0,0,0,0,0,0,True,
+FBgn0262810,dyak,spaln,Dyak_GE27764,387,384,complete_candidate,complete_candidate,No,aligned,588.0,0.848958,0.992248,1.0,326,58,3,0,1,0,1,0,True,
+FBgn0262810,dere,spaln,LOC26526647,387,384,complete_candidate,complete_candidate,No,aligned,606.0,0.864583,0.992248,1.0,332,52,3,0,1,0,1,0,True,
+FBgn0262810,dfic,spaln,LOC108092835,387,393,complete_candidate,complete_candidate,No,aligned,379.5,0.697128,0.989664,0.974555,267,116,4,10,7,4,3,0,True,
+FBgn0262810,drho,spaln,LOC108046915,387,384,complete_candidate,complete_candidate,No,aligned,378.0,0.687003,0.97416,0.981771,259,118,10,7,3,2,1,0,True,
+FBgn0262810,dele,spaln,LOC108137101,387,387,complete_candidate,complete_candidate,No,aligned,405.0,0.69171,0.997416,0.997416,267,119,1,1,2,2,0,0,True,
+FBgn0262810,deug,spaln,LOC108105422,387,375,complete_candidate,complete_candidate,No,aligned,235.5,0.638655,0.922481,0.952,228,129,30,18,15,10,5,0,True,
+FBgn0262810,dtak,spaln,LOC108056229,387,396,complete_candidate,complete_candidate,No,aligned,364.5,0.668394,0.997416,0.974747,258,128,1,10,4,2,2,0,True,
+FBgn0262810,dbia,spaln,LOC108023324,387,387,complete_candidate,complete_candidate,No,aligned,366.0,0.658031,0.997416,0.997416,254,132,1,1,2,2,0,0,True,
+FBgn0262810,dkik,spaln,LOC108080222,387,366,complete_candidate,complete_candidate,No,aligned,264.0,0.686047,0.888889,0.939891,236,108,43,22,15,6,9,0,True,
+FBgn0262810,dana,spaln,LOC6504130,387,399,complete_candidate,complete_candidate,No,aligned,258.0,0.639785,0.96124,0.932331,238,134,15,27,14,10,4,0,True,
+FBgn0262810,dper,spaln,NW_020825322.1-:709401:710983,387,99,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-73.5,0.676768,0.255814,1.0,67,32,288,0,7,1,5,1,False,Identity или покрытие ниже заданного порога
+FBgn0262810,dpse,spaln,NC_046683.1-:14012440:14013990,387,90,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-82.5,0.777778,0.232558,1.0,70,20,297,0,12,7,5,0,False,Identity или покрытие ниже заданного порога
+FBgn0262810,dwil,spaln,NW_002032860.1-:5328097:5330905,387,411,complete_candidate,partial_or_noncanonical,No,aligned,198.0,0.636111,0.930233,0.875912,229,131,27,51,20,12,7,1,True,
+FBgn0262810,sleb,spaln,NW_022060565.1-:707011:707163,387,102,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-70.5,0.77451,0.263566,1.0,79,23,285,0,14,8,6,0,False,Identity или покрытие ниже заданного порога
+FBgn0262810,blat,spaln,NW_017537156.1+:316939:317028,387,90,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-75.0,0.855556,0.232558,1.0,77,13,297,0,15,7,7,1,False,Identity или покрытие ниже заданного порога
+FBgn0262810,bdor,spaln,NW_011876269.1+:609379:609468,387,63,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-111.0,0.84127,0.162791,1.0,53,10,324,0,10,8,2,0,False,Identity или покрытие ниже заданного порога
+FBgn0262810,dsim,genewise,Dsimw501_GD28905,387,387,complete_candidate,complete_candidate,No,aligned,705.0,0.940568,1.0,1.0,364,23,0,0,0,0,0,0,True,
+FBgn0262810,dsec,genewise,LOC116802140,387,387,complete_candidate,complete_candidate,No,aligned,711.0,0.945736,1.0,1.0,366,21,0,0,0,0,0,0,True,
+FBgn0262810,dyak,genewise,Dyak_GE27764,387,384,complete_candidate,complete_candidate,No,aligned,588.0,0.848958,0.992248,1.0,326,58,3,0,1,0,1,0,True,
+FBgn0262810,dere,genewise,LOC26526647,387,384,complete_candidate,complete_candidate,No,aligned,606.0,0.864583,0.992248,1.0,332,52,3,0,1,0,1,0,True,
+FBgn0262810,dfic,genewise,LOC108092835,387,393,complete_candidate,complete_candidate,No,aligned,379.5,0.697128,0.989664,0.974555,267,116,4,10,7,4,3,0,True,
+FBgn0262810,drho,genewise,LOC108046915,387,384,complete_candidate,complete_candidate,No,aligned,378.0,0.687003,0.97416,0.981771,259,118,10,7,3,2,1,0,True,
+FBgn0262810,dele,genewise,LOC108137101,387,387,complete_candidate,complete_candidate,No,aligned,405.0,0.69171,0.997416,0.997416,267,119,1,1,2,2,0,0,True,
+FBgn0262810,deug,genewise,LOC108105422,387,375,complete_candidate,complete_candidate,No,aligned,235.5,0.638655,0.922481,0.952,228,129,30,18,15,10,5,0,True,
+FBgn0262810,dtak,genewise,LOC108056229,387,396,complete_candidate,complete_candidate,No,aligned,364.5,0.668394,0.997416,0.974747,258,128,1,10,4,2,2,0,True,
+FBgn0262810,dbia,genewise,LOC108023324,387,387,complete_candidate,complete_candidate,No,aligned,366.0,0.658031,0.997416,0.997416,254,132,1,1,2,2,0,0,True,
+FBgn0262810,dkik,genewise,LOC108080222,387,366,complete_candidate,complete_candidate,No,aligned,264.0,0.686047,0.888889,0.939891,236,108,43,22,15,6,9,0,True,
+FBgn0262810,dana,genewise,LOC6504130,387,399,complete_candidate,complete_candidate,No,aligned,258.0,0.639785,0.96124,0.932331,238,134,15,27,14,10,4,0,True,
+FBgn0262810,dper,genewise,NW_020825322.1-:709401:710983,387,75,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-108.0,0.746667,0.193798,1.0,56,19,312,0,10,8,1,1,False,Identity или покрытие ниже заданного порога
+FBgn0262810,dpse,genewise,NC_046683.1-:14012440:14013990,387,54,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-123.0,0.851852,0.139535,1.0,46,8,333,0,9,5,4,0,False,Identity или покрытие ниже заданного порога
+FBgn0262810,dwil,genewise,NW_002032860.1-:5328097:5330905,387,411,complete_candidate,partial_or_noncanonical,No,aligned,198.0,0.636111,0.930233,0.875912,229,131,27,51,20,12,7,1,True,
+FBgn0262810,sleb,genewise,NW_022060565.1-:707011:707163,387,24,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-163.5,0.833333,0.062016,1.0,20,4,363,0,4,2,1,1,False,Identity или покрытие ниже заданного порога
+FBgn0262810,blat,genewise,NW_017537156.1+:316939:317028,387,45,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-136.5,0.822222,0.116279,1.0,37,8,342,0,7,4,2,1,False,Identity или покрытие ниже заданного порога
+FBgn0262810,bdor,genewise,NW_011876269.1+:609379:609468,387,30,complete_candidate,partial_or_noncanonical,No,low_quality_alignment,-151.5,0.933333,0.077519,1.0,28,2,357,0,6,4,1,1,False,Identity или покрытие ниже заданного порога

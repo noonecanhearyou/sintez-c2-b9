@@ -1,0 +1,55 @@
+{
+  "stage": "Comparative ORF Analysis Stage 3",
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_records.jsonl",
+  "gene_filter": null,
+  "reference_species": "dmel",
+  "methods": [
+    "spaln",
+    "genewise"
+  ],
+  "settings": {
+    "max_align_length": 4000,
+    "max_align_cells": 4000000,
+    "min_identity": 0.6,
+    "min_coverage": 0.6,
+    "max_events": 200,
+    "preview_columns": 90,
+    "alignment_mode": "global",
+    "match_score": 2.0,
+    "mismatch_score": -1.0,
+    "open_gap_score": -5.0,
+    "extend_gap_score": -0.5
+  },
+  "reference_records": 1668,
+  "reference_gene_method_pairs": 1560,
+  "processed_comparisons": 32354,
+  "unique_genes": 780,
+  "comparisons_per_method": {
+    "spaln": 16177,
+    "genewise": 16177
+  },
+  "alignment_status_counts": {
+    "aligned": 21134,
+    "low_quality_alignment": 7628,
+    "skipped_non_acgt": 182,
+    "skipped_multiple_references": 2340,
+    "skipped_size_limit": 868,
+    "skipped_reference_noncanonical": 200,
+    "skipped_empty_query": 2
+  },
+  "accepted_internal_nontriplet_gap_events": 110299,
+  "tool_agreement_counts": {
+    "exact_sequence": 9723,
+    "different_cds_status": 822,
+    "same_cds_status_only": 5632
+  },
+  "coordinate_system": "0-based_half-open",
+  "limitations": [
+    "Pairwise nucleotide alignment is not codon-aware.",
+    "Alignment gaps are not verified evolutionary indels.",
+    "Evolutionary direction is not inferred.",
+    "Predicted CDS differences may reflect gene prediction errors.",
+    "Sequence homology and orthology are not established here.",
+    "Frameshift-like gaps are preliminary candidates."
+  ]
+}

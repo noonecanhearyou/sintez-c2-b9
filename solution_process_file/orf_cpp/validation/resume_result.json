@@ -1,0 +1,43 @@
+{
+  "computed_stages": 0,
+  "final_output": "/home/stass/Downloads/hac_sintez/orf_cpp/validation/all_gene_profiles.jsonl",
+  "final_sha256": "1b1bdbbfc5506eabcaf4ddf01303e0f9d2669314191361b25cb9cc72937ad102",
+  "input": "/home/stass/Downloads/hac_sintez/test_orf/1_raw_data/supplementary_file_unannotated_alignments.txt",
+  "reused_stages": 5,
+  "settings": {
+    "gene": "",
+    "max_align_cells": 4000000,
+    "max_align_length": 4000,
+    "max_events": 200,
+    "max_gap_details": 10,
+    "max_peptide_aa": 120,
+    "min_aa": 25,
+    "min_coverage": 0.6,
+    "min_identity": 0.6,
+    "preview_columns": 90,
+    "top_k": 10
+  },
+  "stages": [
+    {
+      "action": "reused",
+      "stage": "parser"
+    },
+    {
+      "action": "reused",
+      "stage": "scanner"
+    },
+    {
+      "action": "reused",
+      "stage": "comparative"
+    },
+    {
+      "action": "reused",
+      "stage": "evidence"
+    },
+    {
+      "action": "reused",
+      "stage": "profile"
+    }
+  ],
+  "status": "completed"
+}

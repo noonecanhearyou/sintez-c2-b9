@@ -1,0 +1,10 @@
+name: orf
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - pytest
+  - biopython
+prefix: /home/stass/miniconda3/envs/hac_orf_stas

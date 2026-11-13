@@ -1,0 +1,30 @@
+{
+  "stage": "ORF Profile Aggregation Stage 5",
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results/5_results_fourth/evidence_records.jsonl",
+  "gene_filter": "FBgn0262810",
+  "comparison_records": 36,
+  "unique_loci": 18,
+  "gene_species_pairs": 18,
+  "unique_genes": 1,
+  "locus_status_counts": {
+    "insufficient_evidence": 6,
+    "conflicting_alignment": 8,
+    "preserved_both_identical": 4
+  },
+  "species_status_counts": {
+    "insufficient_evidence": 6,
+    "conflicting_alignment": 8,
+    "preserved_both_identical": 4
+  },
+  "nontriplet_gap_observations": 100,
+  "phase_restored_observations": 18,
+  "origin_classification_performed": false,
+  "limitations": [
+    "Prediction agreement is not independent evidence.",
+    "Observed loci are not verified orthologs.",
+    "Multiple loci are left unresolved.",
+    "No species absence calls are made.",
+    "Gap observations are not evolutionary events.",
+    "No ancestral reconstruction is performed."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-12",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "executable_sha256": "eaf52ec0365597d3c05c51d0667161d8a78eacbf1081b65beb81eda763c8edd6",
+  "full_files": 19,
+  "single_files": 19,
+  "differential_cases": 6382,
+  "original_pytest_passed": 66,
+  "ctest_passed": 3,
+  "resume_computed": 0,
+  "resume_reused": 5,
+  "elapsed_seconds": 107.781,
+  "peak_rss_mib": 142.85
+}

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "stages": {
+    "parser": {
+      "status": "completed",
+      "signature": "bdc31417d416d9bbc02665f4db09a736f1d99128b7e66be6dc0a673d23905956",
+      "completed_at": "2026-11-12T13:55:12+00:00",
+      "outputs": {
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/records.jsonl": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/records.jsonl",
+          "size": 73631685,
+          "sha256": "3bde18074c48cc86e5df6f7e4664b602af5edde9587693e1c4c7ecc9cf305728"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/summary.csv",
+          "size": 5099286,
+          "sha256": "1dad897131f51d04d8a22caa14d07500c20541ba45250dd06128701eb628e2be"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/validation.json": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/2_results_first/validation.json",
+          "size": 1011,
+          "sha256": "0aff53eec22c8b9e5bf92a08b0defee6e9e9398100ac06d80b7686165688d50f"
+        }
+      }
+    },
+    "scanner": {
+      "status": "completed",
+      "signature": "f2d7316772a3c910b75447565f5455e1d6e04ff68ebde173687ea9a42379bc0a",
+      "completed_at": "2026-11-12T13:55:50+00:00",
+      "outputs": {
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_records.jsonl": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_records.jsonl",
+          "size": 206991843,
+          "sha256": "ae530e80d75b38647c0f1b7d81ca82851f95b1ef533973ad99c4c81688c96e12"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_summary.csv",
+          "size": 7221317,
+          "sha256": "2c7b20200035e60cb04224b8164a54aa79e7184063bc080eebe2f30398e82b3e"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_report.json": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/3_results_second/orf_report.json",
+          "size": 1042,
+          "sha256": "0b93c17166ed0ee344f783be0d2666d031c22cc58967341ab3995d1c9631a0f7"
+        }
+      }
+    },
+    "comparative": {
+      "status": "completed",
+      "signature": "98368edf6979c7b6a790366b2dffa4efdc13bd7be0e9ffecdf29a3c3e8c9e94d",
+      "completed_at": "2026-11-12T13:57:25+00:00",
+      "outputs": {
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparisons.jsonl": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparisons.jsonl",
+          "size": 272377387,
+          "sha256": "bfca024f9e0f0544f4bc74fe8f2bcf10973a2ad71f4289148fbdce9a4afc17dc"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparison_summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparison_summary.csv",
+          "size": 6150719,
+          "sha256": "6cd77ff8e64093b6a6abf83f73ab3ed13cc17a1521097e76432910a22e738ce9"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/tool_agreement.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/tool_agreement.csv",
+          "size": 2135744,
+          "sha256": "5d515188635bfe82258b586593c2e4e041abf2a53789f11b6a4ef738cb1c96da"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparison_report.json": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/4_results_third/comparison_report.json",
+          "size": 1663,
+          "sha256": "f8508f05510b1602d812fb0a6b7a21e897261fa42761300da109933964c1b044"
+        }
+      }
+    },
+    "evidence": {
+      "status": "completed",
+      "signature": "2eb1c018db368f0fa98c8ace759ce788de66b7a5d49704b309d3306bbe10a339",
+      "completed_at": "2026-11-12T13:57:28+00:00",
+      "outputs": {
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_records.jsonl": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_records.jsonl",
+          "size": 52485804,
+          "sha256": "da5d81c5f1c5c4e00738539f649b4f32d597392e0bb4a5309b663173855fb049"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_summary.csv",
+          "size": 7292840,
+          "sha256": "72f9cf4631721662578f0fdd37b3433f0f9232978a6cf7d459c88be8db94d61e"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/gene_summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/gene_summary.csv",
+          "size": 29500,
+          "sha256": "1d24b1d2f2d97af3eb6513c72120ce23ee5fbc35c0a269c1d4d048bc47359df2"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_report.json": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/5_results_fourth/evidence_report.json",
+          "size": 1675,
+          "sha256": "5fe4aa64e09d065fe96d4bfb2f317c8ffc569d2e0c172cf6718e95a998eee00b"
+        }
+      }
+    },
+    "profile": {
+      "status": "completed",
+      "signature": "3e19d9e90b119c7b5fbc7e94676518d5c90d437535554113ed9f6f87d1dc8ba8",
+      "completed_at": "2026-11-12T13:57:28+00:00",
+      "outputs": {
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/locus_profiles.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/locus_profiles.csv",
+          "size": 3510929,
+          "sha256": "e5dfc3e5ef0835f814f93a11130b570f4724cb5f3495371dcf8f3e50f996a036"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/species_profiles.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/species_profiles.csv",
+          "size": 982054,
+          "sha256": "b57358bff017f49fe961631316042afb1f8a35a92f904a4b77b57444e8b4ce30"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/gene_profiles.jsonl": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/gene_profiles.jsonl",
+          "size": 1980867,
+          "sha256": "7a0591741040479ed08cdb9797e80ef2f02bb8ec99dfb2f37a0be28d853688fa"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/gene_summary.csv": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/gene_summary.csv",
+          "size": 39710,
+          "sha256": "a586fac61058338fb63a667f98c0701dc2625f12c083f433da901364f1de8fae"
+        },
+        "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/profile_report.json": {
+          "path": "/home/stass/Downloads/hac_sintez/test_orf/pipeline_results_all/6_results_fifth/profile_report.json",
+          "size": 1270,
+          "sha256": "45703972bad6ef7d768d69fadb7b5605b6164c82e0fd42236fcb6b104ed69190"
+        }
+      }
+    }
+  }
+}

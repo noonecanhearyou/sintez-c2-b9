@@ -1,0 +1,30 @@
+{
+  "input_file": "/home/stass/Downloads/hac_sintez/test_orf/1_raw_data/supplementary_file_unannotated_alignments.txt",
+  "gene_filter": "FBgn0262810",
+  "sections_seen": {
+    "raw": 1,
+    "spaln": 1,
+    "genewise": 1
+  },
+  "genes_per_section": {
+    "raw": 1,
+    "spaln": 1,
+    "genewise": 1
+  },
+  "unique_genes": 1,
+  "records_per_section": {
+    "raw": 19,
+    "spaln": 19,
+    "genewise": 19
+  },
+  "selected_records": 57,
+  "groups_scanned": 2340,
+  "records_with_iupac_ambiguity": 0,
+  "total_ambiguous_bases": 0,
+  "warning_count": 0,
+  "warning_counts": {},
+  "warning_examples": [],
+  "error_count": 0,
+  "error_counts": {},
+  "error_examples": []
+}
