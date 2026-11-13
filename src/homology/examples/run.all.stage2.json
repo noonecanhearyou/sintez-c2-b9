@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "query_species": "dmel",
+  "query_fasta": "../data/candidate_queries/proteins.faa",
+  "query_map": "../data/candidate_queries/protein_map.tsv",
+  "blast_bin": "../tools/blast/bin",
+  "output_dir": "../results/all_species_stage2",
+  "threads": 1,
+  "timeout_seconds": 3600,
+  "filters": {
+    "search_evalue": 0.001,
+    "accept_evalue": 1e-05,
+    "min_query_coverage": 50,
+    "min_identity": 0
+  },
+  "targets": [
+    {
+      "id": "dbia_GCF_000233415_1_protein",
+      "species": "dbia",
+      "assembly": "GCF_000233415.1",
+      "kind": "protein",
+      "fasta": "../data/dbia_GCF_000233415_1/proteins.faa",
+      "protein_map": "../data/dbia_GCF_000233415_1/protein_map.tsv"
+    },
+    {
+      "id": "dbia_GCF_000233415_1_genome",
+      "species": "dbia",
+      "assembly": "GCF_000233415.1",
+      "kind": "genome",
+      "fasta": "../data/dbia_GCF_000233415_1/genome.fna"
+    },
+    {
+      "id": "dtak_GCF_000224235_1_protein",
+      "species": "dtak",
+      "assembly": "GCF_000224235.1",
+      "kind": "protein",
+      "fasta": "../data/dtak_GCF_000224235_1/proteins.faa",
+      "protein_map": "../data/dtak_GCF_000224235_1/protein_map.tsv"
+    },
+    {
+      "id": "dtak_GCF_000224235_1_genome",
+      "species": "dtak",
+      "assembly": "GCF_000224235.1",
+      "kind": "genome",
+      "fasta": "../data/dtak_GCF_000224235_1/genome.fna"
+    },
+    {
+      "id": "dkik_GCF_000224215_1_protein",
+      "species": "dkik",
+      "assembly": "GCF_000224215.1",
+      "kind": "protein",
+      "fasta": "../data/dkik_GCF_000224215_1/proteins.faa",
+      "protein_map": "../data/dkik_GCF_000224215_1/protein_map.tsv"
+    },
+    {
+      "id": "dkik_GCF_000224215_1_genome",
+      "species": "dkik",
+      "assembly": "GCF_000224215.1",
+      "kind": "genome",
+      "fasta": "../data/dkik_GCF_000224215_1/genome.fna"
+    },
+    {
+      "id": "dana_GCF_003285975_2_protein",
+      "species": "dana",
+      "assembly": "GCF_003285975.2",
+      "kind": "protein",
+      "fasta": "../data/dana_GCF_003285975_2/proteins.faa",
+      "protein_map": "../data/dana_GCF_003285975_2/protein_map.tsv"
+    },
+    {
+      "id": "dana_GCF_003285975_2_genome",
+      "species": "dana",
+      "assembly": "GCF_003285975.2",
+      "kind": "genome",
+      "fasta": "../data/dana_GCF_003285975_2/genome.fna"
+    },
+    {
+      "id": "dmir_GCF_003369915_1_protein",
+      "species": "dmir",
+      "assembly": "GCF_003369915.1",
+      "kind": "protein",
+      "fasta": "../data/dmir_GCF_003369915_1/proteins.faa",
+      "protein_map": "../data/dmir_GCF_003369915_1/protein_map.tsv"
+    },
+    {
+      "id": "dmir_GCF_003369915_1_genome",
+      "species": "dmir",
+      "assembly": "GCF_003369915.1",
+      "kind": "genome",
+      "fasta": "../data/dmir_GCF_003369915_1/genome.fna"
+    }
+  ],
+  "parallel_targets": 2
+}
