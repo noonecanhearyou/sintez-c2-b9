@@ -31,3 +31,7 @@
 во вкладке **«Дерево»** выберите ген из выпадающего списка, увеличивайте дерево кнопками или колесом мыши и нажимайте на виды для выделения их данных в таблице. Обоснование классификации и оценка поддержки находятся во вкладке **«Гипотеза»**. Результаты и журналы сохраняются автоматически, а для повторного просмотра используйте **«Файл → Открыть результат»** и выберите папку завершённого анализа — пересчёт не нужен.  
 
 <img src="photos/3.png" alt="Фото 3" width="800">
+
+## Ссылки 
+1. BLAST+: architecture and applications / C. Camacho, G. Coulouris, V. Avagyan [et al.] // BMC Bioinformatics. – 2009. – Vol. 10. – Art. 421.
+2. HAL: a hierarchical format for storing and analyzing multiple genome alignments / G. Hickey, B. Paten, D. Earl [et al.] // Bioinformatics. – 2013. – Vol. 29, № 10. – P. 1341–1342. – DOI: 10.1093/bioinformatics/btt128.
