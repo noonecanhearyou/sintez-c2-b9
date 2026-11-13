@@ -1133,11 +1133,11 @@ python3 -B res_1/LibreGenesis_20261113_092652_ce018/research/test_analysis.py > 
 **Memory**: 16.00 GiB
 
 ![Ubuntu](https://img.shields.io/badge/--white?logo=ubuntu&logoColor=E95420&style=flat-square) **OS**: Ubuntu 26.04.1 LTS
-**Kernel**: Linux 7.0.0
-**CPU**: Intel Core Ultra 9 285H
-**Memory**: 32.00 GiB
+**Kernel**: Linux 7.0.0  
+**CPU**: Intel Core Ultra 9 285H  
+**Memory**: 32.00 GiB  
 
 ![Fedora](https://img.shields.io/badge/--white?logo=fedora&logoColor=51A2DA&style=flat-square) **OS**: Fedora Linux 44
-**Kernel**: Linux 7.3.3
-**CPU**: AMD Ryzen 7 8845HS
-**Memory**: 32.00 GiB
+**Kernel**: Linux 7.3.3  
+**CPU**: AMD Ryzen 7 8845HS  
+**Memory**: 32.00 GiB  
